@@ -14,5 +14,9 @@ public class Pomieszczenie extends ElementPietra {
     public int wysokosc;
     public String nazwa;
     
+    @Override
+    public int policzPole(int szerokosc, int wysokosc){
+       return this.szerokosc*this.wysokosc;
+    }
     
 }
