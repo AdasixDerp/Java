@@ -11,6 +11,6 @@ package javanpz;
  */
 public interface Powierzchnia {
     
- int policzPole();
+ public int policzPole();
     
 }
