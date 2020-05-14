@@ -10,7 +10,9 @@ package javanpz;
  * @author Krzysiek
  */
 public abstract class ElementPietra implements Powierzchnia {
-    
+    public int policzPole(int a, int b){
+       return a*b;
+    }
     public int numerPietra;
     
 }
